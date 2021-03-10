@@ -67,7 +67,7 @@ function getFromLocalStorage() {
   const getItem = localStorage.getItem('myData');
 
   if (getItem) {
-    // converts back to array and store it in todos array
+    // converts back to array and store it in array
     myData = JSON.parse(getItem);
     appendTodo(myData);
   }
@@ -102,7 +102,6 @@ todoList.addEventListener('click', function (event) {
   // check if the event is on checkbox
   if (event.target.type === 'checkbox') {
     toggle(event.target.parentElement.getAttribute('data-key'));
-    console.log(event.target.parentElement.getAttribute('data-key'));
   }
 
   // check if that is a delete-button

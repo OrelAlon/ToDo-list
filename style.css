@@ -10,7 +10,6 @@
 } */
 body {
   background: url(./thumb-1920-379102.jpg) no-repeat center center/cover;
-  /* font-family: 'Poppins', sans-serif; */
   color: white;
   min-height: 100vh;
   font-family: 'Akaya Telivigala', cursive;
@@ -69,9 +68,9 @@ form button:hover {
   list-style: none;
 }
 input.checkbox:checked {
-  color: #474747;
+  color: #edd23a;
   background-color: #474747;
-  border: #edd23a solid 3px;
+  border: #474747 solid 3px;
 }
 .task {
   margin: 5px auto;
@@ -84,6 +83,7 @@ input.checkbox:checked {
   align-items: center;
   transition: all 0.5s ease;
   border-radius: 2px;
+  /* tras */
 }
 .delBtn {
   padding: 0.5rem;
@@ -108,8 +108,8 @@ input.checkbox:checked {
   opacity: 0.5;
   transform: scale(0.96);
 }
-/* .fall {
+.fall {
   transform: translateY(4rem) scale(0.4) rotateZ(20deg);
   opacity: 0;
-} */
+}
 /* how to do this?? */
