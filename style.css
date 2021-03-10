@@ -24,6 +24,7 @@ h1 {
   letter-spacing: 3px;
   font-weight: bold;
   font-size: 46px;
+  text-decoration-line: underline;
 }
 form {
   display: flex;
@@ -44,8 +45,8 @@ form input {
   font-family: 'Akaya Telivigala', cursive;
 }
 form button {
-  color: #d664d6;
-  background: white;
+  color: #edd23a;
+  background: #474747;
   cursor: pointer;
   transition: all 0.3s ease;
   margin: 6px;
@@ -66,6 +67,11 @@ form button:hover {
 .todoList {
   min-width: 65%;
   list-style: none;
+}
+input.checkbox:checked {
+  color: #474747;
+  background-color: #474747;
+  border: #edd23a solid 3px;
 }
 .task {
   margin: 5px auto;
@@ -89,9 +95,9 @@ form button:hover {
   font-size: 1rem;
   border-radius: 2px;
 }
-input.checkbox {
-  background: rgb(67, 179, 67);
-}
+/* input.checkbox {
+  background: #edd23a;
+} */
 
 .delBtn:active,
 .delBtn:hover {
